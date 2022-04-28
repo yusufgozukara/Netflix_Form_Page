@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix_Form_Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:wght@300;400&family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>NET<span style="color: red;">FLIX</span></h1>
+        <p>Thank you for signing up to Netflix. Tell me more about yourself.</p>
+        <div class="form-div">
+            <form action="">
+                <div id="name">
+                    <label class="ustyazi" for="name">Name</label><br>
+                    <input id="name" class="inputs" type="text" placeholder="enter your name" required>
+                </div>
+                <div id="age">
+                    <label class="ustyazi" for="age">Age</label><br>
+                    <input id="age" class="inputs" type="number" min="18" max="90" placeholder="age" required>
+                </div>
+                <div id="email">
+                    <label class="ustyazi" for="email">E-mail</label><br>
+                    <input id="email" class="inputs" type="email" placeholder="enter your Email" required>
+                </div>
+                <div id="content">
+                    <label class="ustyazi" for="content">Content Type</label><br>
+                    <select name="content" id="content">
+                        <option value="Series">Series</option>              
+                        <option value="Horror">Horror</option>              
+                        <option value="Comedy">Comedy</option> 
+                    </select>
+                                     
+                </div>
+                <div class="check">
+                    <label for="check">Movie Type</label><br>
+                    <input type="checkbox" name="comedy" id="comedy" checked>
+                    <label for="comedy">Comedy</label><br>
+                    <input type="checkbox" name="action" id="action">
+                    <label for="action">Action</label><br>
+                    <input type="checkbox" name="romance" id="romance" checked>
+                    <label for="romance">Romance</label>
+                </div>
+
+                <div class="rad">
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" name="gender" id="female" checked>
+                    <label for="female">Female</label><br>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label><br>
+                </div>
+
+                <div class="textar">
+                    <label class="ustyazi" for="feed">Feedback</label><br>
+                    <textarea name="feed" id="feed" cols="40" rows="4" placeholder="any comment" style="resize: none;"></textarea>
+                    
+                </div>
+
+                <div class="send">
+                    <input id="subm" type="submit" value="Send">
+                </div>
+
+
+            </form>
+        
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

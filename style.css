@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    background-image: url(./background_image.jpg);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    /* margin-bottom: 50px; */
+
+    
+}
+
+.container h1{
+    color: white;
+    margin: auto;
+    padding-top: 50px;
+    font-family: 'Righteous', cursive;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    
+
+}
+
+.container p{
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.form-div{
+    width: 350px;
+    height: 600px;
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 130px;
+
+    
+}
+
+.inputs{
+
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+
+label{
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+select{
+    width: 100%;
+    height: 30px;
+    margin: 0px; 
+    color: black;
+}
+
+.check{
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    text-align: left;
+    
+}
+
+.rad{
+    display: block;
+    position: absolute;
+    margin-top: 120px;
+    text-align: left;
+    
+    
+}
+
+.textar{
+    margin-top: 200px;
+    width: 100%;
+}
+
+
+#subm{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+    margin: 7px 0 0 100px;
+
+}
+
+#subm:hover{
+    background-color: gray;
+}
+
